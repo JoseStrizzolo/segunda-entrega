@@ -1,0 +1,86 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.fondo{
+	background-image: url(https://us.123rf.com/450wm/eugenesergeev/eugenesergeev1402/eugenesergeev140200198/26146898-incoloro-pino-patr%C3%B3n-de-la-tabla-de-madera-textura-de-fondo.jpg);
+}
+.header{
+	background-image: url(https://us.123rf.com/450wm/eugenesergeev/eugenesergeev1402/eugenesergeev140200198/26146898-incoloro-pino-patr%C3%B3n-de-la-tabla-de-madera-textura-de-fondo.jpg);
+	border-bottom: 1px solid black;
+	background: linear-gradient(to top, rgb(0, 0, 0,.3), rgb(0, 0, 0,.0));
+} 
+.contenedor__contenido{
+	min-height: 100vh;
+	padding-bottom: 40px;
+}
+.contenedor__footer{
+	display: flex;
+	justify-content: space-between;
+	background: linear-gradient(to top, rgb(0, 0, 0,.3), rgb(0, 0, 0,.0));
+	border-top: 1px solid black;
+	text-align: center;
+	font-family: 'Bebas Neue', cursive;
+}
+.navbar-collapse {
+    flex-grow: 0 !important;
+}
+.container-fluid{
+	font-family: 'Bebas Neue', cursive !important ;
+}
+.banner{
+	text-align: center;
+	padding-top: 15px;
+}
+.banner p{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-family: 'Bebas Neue', cursive;
+	color: black;
+	font-size: 3vw;
+}
+
+.textos{
+	padding-top: 100px;
+	margin-left: 5%;
+	margin-right: 5%;
+	font-size: 1.8rem;
+}
+.alcanceNacional{
+	padding-right: 100px;
+	padding-left: 100px;
+}
+.calidad{
+	padding-right: 100px;
+	padding-left: 100px;
+}
+.seguridad{
+	padding-right: 100px;
+	padding-left: 100px;
+}
+.copyright p{
+	margin-bottom: 0rem !important;
+}
+.fotos__productos{
+	font-family: 'Bebas Neue', cursive;
+	padding-top: 15px;
+	text-align: center;
+}
+@media all and (max-width: 425px){
+	.fotos__productos1{
+		display: flex;
+		flex-direction: column !important;
+		align-items: center;
+	}
+}
+.fotos__productos img{
+	padding-top: 5px;
+	padding-bottom: 40px;
+}
+.btn-outline-danger{
+	color: rgb(255, 0, 124) !important;
+	border-color: rgb(255, 0, 124) !important;
+}
